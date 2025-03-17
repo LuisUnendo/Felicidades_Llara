@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tú cambio de década</title>
+    <link rel="icon" type="image/png" href="Imagenes/imagen_perfil.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ffccff, #ff99cc);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg, #ff6699, #ff3366);
+            padding: 12px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a:hover {
+            background: linear-gradient(45deg, #ff3366, #ff0033);
+            transform: scale(1.1);
+        }
+
+        .seccion {
+            display: none;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        .seccion:target {
+            display: block;
+        }
+
+        img {
+            width: 80%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        audio {
+            margin-top: 15px;
+        }
+
+        .volver-arriba {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(45deg, #ff6699, #ff3366);
+            color: white;
+            padding: 12px 18px;
+            border-radius: 50%;
+            font-size: 24px;
+            text-decoration: none;
+            display: none;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .volver-arriba:hover {
+            background: linear-gradient(45deg, #ff3366, #ff0033);
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .contador {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #ff6699;
+            color: white;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz Cumpleaños, Mi Amor! 🎉</h1>
+        <p>No poder celebrar el cumpleaños a tu lado no significa no estar ahí celebrando contigo.</p>
+        <p>Espero que hayas tenido un día buenísimo y que en muy pocos días estemos juntos de nuevo.</p>
+        <nav>
+            <ul>
+                <li><a href="#mensaje">Mil veces tú</a></li>
+                <li><a href="#fotos">El mejor recuerdo</a></li>
+                <li><a href="#musica">Canción especial</a></li>
+                <li><a href="#contadores">Diferentes cuentas atrás</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    
+    <section id="mensaje" class="seccion">
+        <h2>¿Por qué tú?</h2>
+        <p>Para liarte con alguien seguramente valga cualquiera, pasas un momento bueno con esa persona y si te vi no me acuerdo. 
+            Seguramente a mucha gente eso le llena y le parece que con esta edad eso es ser guay.
+            Cuando te llega una persona que hace que todos los momentos sean buenos sean íntimos o no pues no te hace falta nada más para ser feliz.
+            Contigo Llara todos los momentos son buenos, mágicos e inolvidables incluso estando a muchisimos Kilometros me haces reir y sentir especial, por eso eres tú.
+            Eres tú porque contigo soy yo. Eres tú porque sacas la mejor versión de mí. Eres tú porque me haces madurar y evolucionar.
+            Eres tú porque me aceptas tal y como soy, no me intentas cambiar solo intentas que mejore y evolucione.
+            Eres tú porque en vez de decirme que todo bien me dices cuando me equivoque para que me de cuenta de las cosas.
+            Eres tú porque me entiendes como no me entiende mucha gente y sabes lo que me pasa con mirarme.
+            Eres tú porque cuando discutimos en vez de gritarnos y echarnos mierda tratamos de hablar las cosas y solucionarlas civilizadamente.
+            Eres tú porque eres preciosa, agradable, maja, cariñosa, sensible, atenta, listisima y super buena persona.
+            Eres tú porque aparte de tenerme enamorado a mí tienes enamorado a toda mi familia.
+            Eres tú porque te prefiero a ti a miles de Kilometros y estando mucho tiempo sin ti que a cualquier otra a 1cm.
+            Por todo eso y muchas cosas más eres tú y no cualquier otra.
+            Te quiero por ser tú como eres.💖</p>
+        <img src="Imagenes/imagen1.jpg.jpg" alt="Siempre">
+        <img src="Imagenes/imagen4.jpg" alt="Serás">
+        <img src="Imagenes/imagen5.jpg" alt="Tú">
+    </section>
+
+    <section id="fotos" class="seccion">
+        <h2>Nuestros Momentos</h2>
+        <img src="Imagenes/imagen2.jpg" alt="Foto juntos">
+        <p>Porque contigo no me puedo reir más. Esta foto es al principio del verano en estaño. Ese dia estabas preciosa, igual o más guapa que el atardecer.
+            Para mí el mejor verano de mi vida. Hacía mucho que no me sentía tan feliz y tan bien como ese verano.</p>
+        <img src="Imagenes/imagen3.jpg" alt="Otro bello recuerdo">
+        <p>Esta es de la primera vez que baje a Madrid a verte. A ti solo se te ocurre conseguirme entradas para ir a ver al sporting a Alcorcón.
+            Para ti será una tontería, pero para mi es un detalle que jamás olvidaré y que define a la perfeccion lo empática y buena persona que eres.</p>
+    </section>
+
+    <section id="musica" class="seccion">
+        <h2>Canción que me recuerda a ti</h2>
+        <audio controls>
+            <source src="Imagenes/canción.mp3" type="audio/mpeg">
+        </audio>
+        <p>Hay varias porque nos montamos buenos conciertos en el coche.
+            Pero está canción la escuche cuando la escuche siempre siempre me va a recordar a ti y me produce una sonrisa</p>
+    </section>
+
+    <a href="#" class="volver-arriba" id="volverArriba">⬆</a>
+
+    <script>
+        window.onscroll = function() {
+            let boton = document.getElementById("volverArriba");
+            if (document.documentElement.scrollTop > 200) {
+                boton.style.display = "block";
+            } else {
+                boton.style.display = "none";
+            }
+        };
+    </script>
+    <section id="Contadores" class="seccion"></section>
+    <h2>No hay cumpleaños sin tarta</h2>
+    <p>Ahora mismo un repartidor de Glovo esta yendo al cole a entregarte una tarta. Tu favortia, de queso. Espero que la disfrutes.</p>
+    <div id="contador1" class="contador"></div>
+
+    <!-- Segundo Contador -->
+    <h2>Dias que faltan para vernos</h2>
+    <p> Este contador te indica cuantos días horas minutos y segundos faltan para que nos fundamos en un abrazo. Como ves, ya no queda nada.</p>
+    <div id="contador2" class="contador"></div>
+    <script>
+        function iniciarContador(id, fechaDestino) {
+            const destino = new Date(fechaDestino).getTime();
+
+            const intervalo = setInterval(function () {
+                const ahora = new Date().getTime();
+                const diferencia = destino - ahora;
+
+                if (diferencia > 0) {
+                    const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+                    const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+                    const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+                    document.getElementById(id).innerHTML = 
+                        `${dias} días, ${horas}h ${minutos}m ${segundos}s`;
+                } else {
+                    document.getElementById(id).innerHTML = "¡Llego el momento!";
+                    clearInterval(intervalo);
+                }
+            }, 1000);
+        }
+
+        // Personaliza las fechas aquí
+        iniciarContador("contador1", "2025-03-25 00:00:00"); //Contador 1 tarta
+        iniciarContador("contador2", "2025-03-28 18:00:00"); // Contador 2 para vernos
+
+    </script>
+
+
+</body>
+</html>
